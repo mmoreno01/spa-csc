@@ -1,0 +1,161 @@
+#texto-preguntas
+{
+    h1
+    {
+        color: $color-titulos;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        margin-top: 0px;
+        font-weight: bold;
+        padding: 50px 0px 20px;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        margin-top: -230px;
+    }
+}
+
+.aticulos-preguntas
+{
+    width: 100%;
+    position: relative;  
+    article
+    {
+        position: relative;
+    }
+    .preguntas-reponsive
+    {
+        padding: 50px 10px 0;
+        li
+        {
+            list-style: none;
+        }
+    }
+    .pregun
+    {
+        font-family:$tipografia;
+        margin-bottom: 10px;
+        color:$texto-preguntas;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .respuesta
+    {
+        margin-bottom: 20px;
+        font-family:$tipografia;
+        font-size: 13px;
+        padding: 0px 0px 10px;
+        border-bottom: 1px solid #d1d1d1;
+        font-size: 16px;
+    }
+    a 
+    {
+        color:$color-titulos;
+        list-style: none;
+    }
+    a:hover 
+    {
+        font-weight: bold;
+    }
+    a:link 
+    {
+        list-style: none;
+        color:$color-titulos;
+    }
+}
+
+/*--------------------------
+    media querys
+---------------------------*/
+@media (max-width:1200px)
+{
+   
+}
+
+@media (max-width:992px)
+{
+   
+
+}
+@media (max-width:768px)
+{
+    #texto-preguntas
+    {
+    h1
+    {
+        padding: 50px 0px 0px;
+        text-align: center;
+        font-size: 30px;
+        letter-spacing: 5px;
+       margin-top: -20px;
+    }
+    .aticulos-preguntas
+    {
+    .pregun
+    {
+        font-family:$tipografia;
+        margin-bottom: 10px;
+        color:$texto-preguntas;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .respuesta
+    {
+        margin-bottom: 20px;
+        font-family:$tipografia;
+        padding: 0px 0px 10px;
+        border-bottom: 1px solid #d1d1d1;
+        font-size: 14px;
+    }
+    a 
+    {
+        font-size: 16px;
+    }
+    }
+}
+}
+
+@media (max-width:576px)
+{
+    .cuadro-politicas
+    {
+        margin-bottom: 50px;
+    }
+    .espacio-reguntas
+    {
+        padding: 0px 0px 0px;
+    }
+    
+    #texto-preguntas
+    {
+        h1
+        {
+            padding: 50px 0px 0px;
+            text-align: center;
+            font-size: 30px;
+            margin-top: 20px;
+        }
+    }
+    .aticulos-preguntas
+    {
+        .pregun
+        {
+            font-family:$tipografia;
+            margin-bottom: 10px;
+            color:$texto-preguntas;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .respuesta
+        {
+            margin-bottom: 20px;
+            font-family:$tipografia;
+            padding: 0px 0px 10px;
+            border-bottom: 1px solid #d1d1d1;
+            font-size: 14px;
+        }
+        a 
+        {
+            font-size: 12px;
+        }
+    }
+}

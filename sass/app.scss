@@ -1,0 +1,35 @@
+
+/*------------------
+importando variables
+--------------------*/
+@import "home";
+@import "conocenos";
+@import "variables";
+@import "centrobelleza";
+@import "spa";
+@import "bienestar";
+@import "contacto";
+@import "menu";
+@import "foter";
+@import "galeria";
+@import "foter";
+@import "galeria";
+@import "servicios";
+@import "aviso";
+@import "politicas";
+@import "salud";
+@import "preguntas";
+@import "correo";
+
+*
+{
+    margin:0; 
+    padding:0;
+}
+
+body{
+   font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+}

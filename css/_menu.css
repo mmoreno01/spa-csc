@@ -1,0 +1,32 @@
+#nav-menu {
+  background-color: #d1ae85; }
+  #nav-menu .navbar-brand {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    right: 0; }
+
+#navbarSupportedContent ul {
+  margin: 0 auto;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  margin-top: 60px; }
+
+/*--------------------------
+    media querys
+---------------------------*/
+@media (max-width: 992px) {
+  #nav-menu .navbar-brand {
+    position: relative;
+    width: 0%; }
+  #navbarSupportedContent ul {
+    margin-top: 0px; } }
+
+@media (max-width: 768px) {
+  #nav-menu .navbar-brand {
+    position: relative;
+    width: 0%; }
+  #navbarSupportedContent ul {
+    margin-top: 0px; } }
