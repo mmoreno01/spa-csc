@@ -133,53 +133,6 @@ importando variables
   #sl .owl-nav .owl-next span {
     right: 40px; } }
 
-#section-elite {
-  background-image: url("../img/promoSpa/banner elite health.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 50px 0px; }
-  #section-elite .text-princ {
-    text-align: center;
-    padding: 50px 0px; }
-  #section-elite h1 {
-    text-align: center;
-    font-weight: 100;
-    color: #4c4b50;
-    font-size: 60px; }
-  #section-elite h2 {
-    text-align: center;
-    font-size: 15px;
-    letter-spacing: 5px; }
-  #section-elite h3 {
-    margin-top: 60px;
-    text-align: center;
-    color: #d1ae85;
-    font-size: 20px;
-    margin-bottom: 30px; }
-  #section-elite .funcion {
-    color: #4c4b50;
-    font-weight: 100;
-    font-size: 40px; }
-  #section-elite hr {
-    margin-top: 20px; }
-  #section-elite ul {
-    margin-bottom: 30px; }
-    #section-elite ul li {
-      list-style: none; }
-  #section-elite .modal-heade {
-    width: 100%;
-    height: 300px;
-    background-image: url("./img/promoSpa/banner spa.jpg"); }
-
-.header-img {
-  background-image: url(../img/parallax/cscwellnesscenter2.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-attachment: fixed;
-  width: 100%;
-  height: 400px;
-  position: relative; }
-
 video {
   width: 100%;
   height: auto; }
@@ -3099,6 +3052,82 @@ footer {
   line-height: 200%;
   font-size: 22px;
   font-weight: 500; }
+
+#section-elite {
+  background-image: url("../img/promoSpa/banner elite health.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0px; }
+  #section-elite .text-princ {
+    text-align: center;
+    padding: 50px 0px; }
+  #section-elite h1 {
+    text-align: center;
+    font-weight: 100;
+    color: #4c4b50;
+    font-size: 60px; }
+  #section-elite h2 {
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 5px; }
+  #section-elite h3 {
+    margin-top: 60px;
+    text-align: center;
+    color: #d1ae85;
+    font-size: 20px;
+    margin-bottom: 30px; }
+  #section-elite .funcion {
+    color: #4c4b50;
+    font-weight: 100;
+    font-size: 40px; }
+  #section-elite hr {
+    margin-top: 20px; }
+  #section-elite ul {
+    margin-bottom: 30px; }
+    #section-elite ul li {
+      list-style: none; }
+  #section-elite .modal-heade {
+    width: 100%;
+    height: 300px;
+    background-image: url("./img/promoSpa/banner spa.jpg"); }
+
+.header-img {
+  background-image: url(../img/parallax/banner_elite_health.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+  width: 100%;
+  height: 400px;
+  position: relative; }
+
+#modal-form {
+  margin-top: 100px; }
+  #modal-form a {
+    font-size: 40px;
+    color: #c68659;
+    text-decoration: none; }
+  #modal-form i {
+    padding: 10px;
+    opacity: 1; }
+  #modal-form i:hover {
+    opacity: .8; }
+
+#promo-form .btn-primary {
+  display: block;
+  margin: 0 auto;
+  background-color: transparent;
+  border-color: #c68659;
+  color: #c68659; }
+
+#promo-form .btn-primary:hover {
+  background-color: #c68659;
+  color: #fff; }
+
+#promo-form button .btn-primary {
+  display: block;
+  margin: 0 auto;
+  background-color: transparent;
+  border-color: #c68659; }
 
 * {
   margin: 0;
