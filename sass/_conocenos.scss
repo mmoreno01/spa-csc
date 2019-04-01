@@ -58,114 +58,7 @@ video
     }
 }
 
-#section-tips
-{
-    padding: 70px 0px;
-    background-color: #f6f6f6;
-    margin-top: -7px;
-    .title-sblog
-    {
-        color: #c68659;
-        font-family: 'Poppins', sans-serif;
-        text-align: center;
-        margin-top: 0px;
-        font-weight: bold;
-        text-transform: uppercase;
-        letter-spacing: 10px;
-        padding-bottom: 20px;
-    }
-    .linea-blog
-    {
-        background-color: #664936;
-        bottom: 0;
-        width: 40px;
-        left: 0px;
-        height: 1px;
-        border-radius: 10px;
-        margin: 0 auto;
-        margin-bottom: 20px;
-    }
-    .subtitle-blog 
-    {
-        text-align: center;
-        font-family: 'Poppins', sans-serif;
-    }
-    .tip 
-    {
-        background-color: transparent;
-        padding: 40px;
-        -webkit-transition: .3s;
-        -o-transition: .3s;
-        transition: .3s;
-        box-shadow: 0 5px 40px rgba(0,0,0,.07);
-        border-radius: 4px;
-        text-align: left;
-        overflow: hidden;
-        padding-bottom: 35px;
-        margin-left: 30px;
-        width: 513px;
-        margin-top: 40px;
-    }
-    .img-tip
-    {
-        max-width: 230px;
-        max-height: 100%;
-        display: inline-block;
-        float: right;
-        margin-top: -40px;
-        margin-left: 20px;
-        margin-right: -50px;
-        margin-bottom: -90px;
-        img 
-        {
-            float: left;
-            border-bottom-left-radius: 100%;
-            border-top-left-radius: 100%;
-            width: 250px;
-            height: 249px;
-        }
-        
-    }
-    .txt-tip
-    {
-        padding-top: 0;
-        padding-bottom: 0;
-        text-align: left;
-        margin-bottom: 0;
-        line-height: 1.6;
-        display: block;
-        width: 70%;
-        font-family: 'Poppins', sans-serif;
-        color: #664936;
-    }
-    .titulo-tip
-    {
-        h5 
-        { 
-            font-family: 'Poppins', sans-serif;
-        }
-        p 
-        {
-            font-family: 'Poppins', sans-serif;
-            color: $color-titulos;
-        }
-        .seeMore
-        {
-            font-family: 'Poppins', sans-serif;
-            color: $color-titulos;        
-        }
-    }
-    .tips-star
-    { 
-        text-align: left;
-        margin-top: 0;
-        padding-top: 20px;
-        span i
-        {
-            color: #c68659;
-        }
-    }
-}
+
 
 
 
@@ -357,12 +250,13 @@ video
     {
         text-align: center;
         font-size: 30px;
-        font-family:'Poppins', sans-serif;
+        font-family: 'Poppins', sans-serif;
         font-weight: bold;
         padding-top: 40px;
         padding: 100px 0px 100px;
         position: relative;
         color: white;
+        margin: 0 auto;
     }
 }
 
@@ -540,6 +434,11 @@ video
     {
         margin-top: 15px;
     }
+    #blog-spas {
+        .im-blog{
+            display: none;
+        }
+    }
 }
 
 
@@ -547,6 +446,8 @@ video
 {
     #conocenos
     {
+        padding: 50px 0px 50px;
+
         .texto-conocenos
         {
             h1
@@ -616,13 +517,20 @@ video
     {
         padding: 20px;
     }
+
+    #blog-spas {
+        .im-blog{
+            display: none;
+        }
+    }
 }
 
 @media (max-width:576px)
 {
     #conocenos
     {
-      
+        padding: 50px 0px 50px;
+
         .texto-conocenos
         {
             h1
@@ -759,11 +667,9 @@ video
             text-align: center;  
         }
     }
-    #blog-spas
-    {
-        .title-sblog
-        {
-            font-size: 24px;
+    #blog-spas {
+        .im-blog{
+            display: none;
         }
     }
 }
