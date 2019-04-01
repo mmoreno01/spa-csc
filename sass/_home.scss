@@ -1,4 +1,4 @@
-@import 'variables';
+
     
 
 /*-----style navs slider-------*/
@@ -143,27 +143,13 @@
 /*--------------------------
     media querys
 ---------------------------*/
-@media (max-width:1200px){
-}
+@media (max-width:1200px)
+{
     
-
-@media (min-width:1200px){
-    .modal-dialog{
-        max-width: 800px!important;
-    }
-}
-
-@media (min-width:992px){
-    .modal-dialog{
-        max-width: 800px!important;
-    }
 }
 
 @media (max-width:992px)
 {
-.modal-dialog{
-    max-width: 800px!important;
-}
     #spa-carousel{
         .owl-nav{
             .owl-prev{
@@ -281,4 +267,3 @@
     }
 
 }
-
