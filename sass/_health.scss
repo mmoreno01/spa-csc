@@ -38,7 +38,7 @@
       width: 100%;
       height: 100%;
       position: absolute;
-      background: rgba(209, 174, 133, 0.623); }
+      background: rgba(209, 174, 133, 0.4); }
 #slider-health .services_content {
       width: 100%;
       position: absolute;
@@ -81,14 +81,20 @@
       padding: 50px 0px;
   
       .text-princ{
-          text-align: center;
-          padding: 50px 0px;
+            text-align: center;
+            padding: 50px 0px;
+            font-size: 20px;
+            font-weight: 300;
       }
       h1{
           text-align: center;
           font-weight: 100;
           color: #4c4b50;
           font-size: 60px;
+  }
+  p{
+      font-size: 20px;
+      font-weight: 300;  
   }
   h2{
       text-align: center;
@@ -137,6 +143,7 @@
   
   #modal-form{
     margin-top: 100px;
+    text-align: center;
     a{
       font-size: 40px;
       color: $color-titulos;
@@ -175,5 +182,8 @@
        
       }
   }
+
+  
+  
 
  

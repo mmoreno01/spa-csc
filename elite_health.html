@@ -140,10 +140,10 @@
 
 <div class="container">
     <div id="slider-health">
-        <div class="container owl-carousel owl-loaded owl-drag">
+        <div class="container owl-carousel owl-theme owl-loaded">
           <div class="owl-stage-outer">
             <div class="owl-stage" style="transform: translate3d(-6120px, 0px, 0px); transition: all 0.25s ease 0s; width: 8640px;">
-              <div class="owl-item cloned" style="width: 350px; margin-right: 10px;">
+              <div class="owl-item" style="width: 350px; margin-right: 10px;">
                 <div class="item-nav">
                 <img class="img-principal" src="img/galeriaelite/1.jpg" alt="">
                 <div class="overlay">
@@ -153,7 +153,7 @@
                 </div>
             </div>
           </div>
-          <div class="owl-item cloned" style="width: 350px; margin-right: 10px;">
+          <div class="owl-item" style="width: 350px; margin-right: 10px;">
             <div class="item-nav">
                 <img class="img-principal" src="img/galeriaelite/2.jpg" alt="">
                 <div class="overlay">
@@ -163,7 +163,7 @@
                 </div>
                 </div>
             </div>
-          <div class="owl-item cloned" style="width: 350px; margin-right: 10px;">
+          <div class="owl-item" style="width: 350px; margin-right: 10px;">
             <div class="item-nav">
                 <img class="img-principal" src="img/galeriaelite/3.jpg" alt="">
                  <div class="overlay"></div>
@@ -172,7 +172,7 @@
                   </div>
                   </div>
                 </div>
-          <div class="owl-item cloned" style="width: 350px; margin-right: 10px;">
+          <div class="owl-item" style="width: 350px; margin-right: 10px;">
             <div class="item-nav">
                <img class="img-principal" src="img/galeriaelite/4.jpg" alt="">
                <div class="overlay"></div>
@@ -181,7 +181,7 @@
                </div>
                </div>
             </div>
-          <div class="owl-item cloned" style="width: 350px; margin-right: 10px;">
+          <div class="owl-item" style="width: 350px; margin-right: 10px;">
               <div class="item-nav">
                 <img class="img-principal" src="img/galeriaelite/5.jpg" alt="">
                 <div class="overlay"></div>
@@ -202,7 +202,10 @@
   </div>
 </section>
 
-<a href="" data-toggle="modal" data-target="#promo-form">promociones </a>
+<section id="modal-form">
+    <a href="" data-toggle="modal" data-target="#promo-form">Cotiza Ahora <i class="fas fa-arrow-right"></i> </a>
+</section>
+
 
 <!-- Modal -->
 <div class="modal fade" id="promo-form" tabindex="-1" role="dialog" aria-labelledby="promo-formLabel" aria-hidden="true">
@@ -361,30 +364,17 @@ var myLatLng = {lat: 19.3884264,lng: -99.17876319999999};
 </script> 
 <script src="OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js" type="text/javascript"></script>
 <script src="OwlCarousel2-2.3.4/dist/owl.carousel.js" type="text/javascript"></script> 
+
 <script>
-var owl = $('.owl-carousel');
-owl.owlCarousel({
-    items:3,
-    loop:true,
-    margin:5,
-    autoplay:true,
-    autoplayTimeout:2000,
-    autoplayHoverPause:true
-});
-$('.play').on('click',function(){
-    owl.trigger('play.owl.autoplay',[1000])
-})
-$('.stop').on('click',function(){
-    owl.trigger('stop.owl.autoplay')
-})</script>
-<!-- <script>
     $('.owl-carousel').owlCarousel({
+    items: 5,
     loop:true,
     margin:10,
+    autoplay:true,
     nav:true,
     responsive:{
         0:{
-            items:3
+            items:1
         },
         600:{
             items:3
@@ -395,7 +385,8 @@ $('.stop').on('click',function(){
     }
 });
 
-</script>-->
+
+</script>
 <script type="text/javascript">
      $(function(){ 
      var navMain = $(".navbar-collapse"); // avoid dependency on #id
