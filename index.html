@@ -26,15 +26,44 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/settings.css" media="screen">
 
-    <!--Links-->
-    
+ <!--Links-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-76308104-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-76308104-1');
+    </script>
+
+<!-- Facebook Pixel Code -->
+<script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+        n.queue=[];t=b.createElement(e);t.async=!0;
+        t.src=v;s=b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t,s)}(window,document,'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '2252591504816468'); 
+        fbq('track', 'PageView');
+        </script>
+        <noscript>
+        <img height="1" width="1" 
+        src="https://www.facebook.com/tr?id=2252591504816468&ev=PageView
+        &noscript=1"/>
+        </noscript>
+        <!-- End Facebook Pixel Code -->    
     <title>CSC Wellness Center | SPA</title>
 </head>
 <!--Menu-->
 <nav id="nav-menu" class="navbar navbar-expand-lg fixed-top navbar-light ">
-    <a class="navbar-brand" href="index.html">
-        <img src="img/logo.png" width="100px" height="" alt="">
-    </a>
+    <div class="navbar-brand" >
+       <a href="index.html"> <img src="img/logo.png" width="100px" height="" alt=""> </a>
+    </div>
+   
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -69,6 +98,12 @@
       <li class="nav-item arriba">
             <a class="nav-link text-white" href="contacto.html">Contacto</a>
        </li>
+       <li class="nav-item arriba">
+        <a class="nav-link text-white" href="http://www.cscwellnesscenter.com.mx/blog-spa/">Blog</a>
+    </li>
+    <li class="nav-item arriba">
+        <a class="nav-link text-white" href="http://www.cscwellnesscenter.com.mx/blog-spa/index.php/tips">Tips</a>
+    </li>                 
     </ul>
     <!-- <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -383,7 +418,7 @@
 <!-- seccion tips-->
 <section id="section-tips" class="content-section"  ng-controller="tips">
     <div class="container">
-        <h2 class="title title-sblog wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">Tips</h2>
+        <h2 class="title title-sblog wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">Blog</h2>
         <hr class="linea-blog wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">
         <p class="subtitle-blog wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">En CSC Wellness Center te ayudamos a lucir y sentirte bien, <br>con nuestros prácticos consejos lograrás un equilibrio entre mente y cuerpo.</p>
         <div class="row d-flex justify-content-center wow animated fadeIn" ng-class="{active:!$index}" data-wow-duration = "1s" data-wow-delay = "1s">

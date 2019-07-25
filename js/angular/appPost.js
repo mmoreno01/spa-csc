@@ -15,7 +15,7 @@ $http.get('http://www.cscwellnesscenter.com.mx/blog-spa/?rest_route=/wp/v2/posts
 //controlador obtiene tips
 myApp.controller('tips',['$scope', '$window','$http', function($scope,$window,$http) {
 
-$http.get('http://www.cscwellnesscenter.com.mx/blog-spa/?rest_route=/wp/v2/posts&_embed&categories=5', {
+$http.get('http://www.cscwellnesscenter.com.mx/blog-spa/?rest_route=/wp/v2/posts&_embed&categories=58', {
   headers: {'Authorization': 'basic' +btoa('user_spa:4N@i$%hbbJ@9EHESIQ')}
       
 }).then(function (res){
