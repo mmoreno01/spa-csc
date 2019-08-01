@@ -423,6 +423,8 @@
         <p class="subtitle-blog wow animated fadeIn" data-wow-duration = "1s" data-wow-delay = "1s">En CSC Wellness Center te ayudamos a lucir y sentirte bien, <br>con nuestros prácticos consejos lograrás un equilibrio entre mente y cuerpo.</p>
         <div class="row d-flex justify-content-center wow animated fadeIn" ng-class="{active:!$index}" data-wow-duration = "1s" data-wow-delay = "1s">
             <div class="tip" ng-repeat="x in postTips | limitTo: 2">
+                    <a href="{{x.link}}">
+
                 <div class="img-tip" style="background-image: url({{x._embedded['wp: featuredmedia']['0'].source_url}});">
                     <img class="img-responsive1" ng-src="{{x._embedded['wp:featuredmedia'][0].source_url}}">
                 </div>
@@ -436,7 +438,7 @@
                 </div>
                 <div class="seeMore">
                     <p>   
-                        <a href="{{x.link}}" target="_blank"><label>Ver más</label></a>
+                        <a href="#"><label>Ver más</label></a>
                     </p>
                 </div>
                 <div class="tips-star">
@@ -446,6 +448,8 @@
                     <span><i class="fas fa-star"></i></span>
                     <span><i class="fas fa-star"></i></span>
                 </div>
+            </a>
+
             </div>
 
         </div>
